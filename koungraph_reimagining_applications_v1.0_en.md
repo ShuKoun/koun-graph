@@ -42,7 +42,7 @@ KounGraph presents a unified substrate for application logic, where users and AI
 
 ## Introduction
 
-This paper builds upon the foundational architecture proposed in [KounGraph: A Semantic Node-Based Operating System and Its Cognitive Structure Model](https://zenodo.org/records/15244182), which introduced the core principles of node-based execution, semantic identity, and cognitive agency. In this follow-up, we focus on how such a structure can be used to reconstruct the logic of conventional applications into interpretable, composable semantic graphs.
+This paper builds upon the foundational architecture proposed in [KounGraph: A Semantic Node-Based Operating System and Its Cognitive Structure Model](10.5281/zenodo.15244182), which introduced the core principles of node-based execution, semantic identity, and cognitive agency. In this follow-up, we focus on how such a structure can be used to reconstruct the logic of conventional applications into interpretable, composable semantic graphs.
 
 Contemporary digital applications—such as document editors, task managers, browsers, terminal interfaces, and communication platforms—are built upon long-standing paradigms that separate content, behavior, identity, and memory. While highly functional and mature, these systems largely inherit logic structures conceived in the early computer age, where information is stored in files, executed via commands, and presented through GUI abstractions. These designs lack native support for **semantic continuity**, **contextual awareness**, **agent collaboration**, and **composable interaction logic**.
 
