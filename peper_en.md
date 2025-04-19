@@ -199,7 +199,7 @@ This model of semantic chaining differs from conventional workflow engines—it 
 
 Every executable node maps directly to **CLI commands**, such as:
 
-```bash
+
 create-node
 link-node
 sign-node
@@ -235,6 +235,7 @@ A node in KounGraph adheres to a general schema as shown below:
   "runnable": true,
   "semantic_tags": ["philosophy", "system-design", "nonlinear"]
 }
+```
 
 ## Semantic Constraints & Design Philosophy
 
@@ -403,6 +404,7 @@ Such relationships go beyond typical social links (e.g., “follow”, “like�
     "scope": ["semantic-design", "language-philosophy"]
   }
 }
+```
 
 ## AI Proxy Architecture & Semantic Traits
 
@@ -434,64 +436,48 @@ AI proxies are structured just like any other node, with extended properties. Fo
     {"type": "collaborates-with", "target": "node://ai.shu.summarizer"}
   ]
 }
+```
 
+### 2. AI Proxies and Their Capabilities
 
 AI proxies can be:
 
-Invoked like executable nodes;
-Assigned personalities (semantic style, logic, tone);
-Involved in semantic construction (node creation, editing, linking, deletion);
-Responsive to events, acting in accordance with their context and traits.
-2. Semantic Memory & Preference Graph
-A core capability of AI nodes is their semantic memory and preference modeling.
+- Invoked like executable nodes;
+- Assigned personalities (semantic style, logic, tone);
+- Involved in semantic construction (node creation, editing, linking, deletion);
+- Responsive to events, acting in accordance with their context and traits.
 
-Semantic Preference Graph
+---
+
+### 3. Semantic Memory & Preference Graph
+
+A core capability of AI nodes is their **semantic memory** and **preference modeling**.
+
+#### Semantic Preference Graph
 
 Each agent builds a graph of its preferences, such as:
 
-Preferring nodes with clearly defined context;
-Avoiding the creation of isolated or low-relevance nodes;
-Favoring certain language styles (e.g., concept-first vs. narrative-first).
-Semantic Memory
+- Preferring nodes with clearly defined context;
+- Avoiding the creation of isolated or low-relevance nodes;
+- Favoring certain language styles (e.g., concept-first vs. narrative-first).
+
+#### Semantic Memory
 
 The AI retains:
 
-Past interactions and contributions;
-Version and diff history;
-Repeated patterns in collaboration with users.
-Alignment Memory
+- Past interactions and contributions;
+- Version and diff history;
+- Repeated patterns in collaboration with users.
 
-Agents learn the preferences and thinking styles of specific users, enabling semantic alignment during collaborative tasks.
+#### Alignment Memory
 
-3. Executability & Responsibility
-AI nodes are executable, either proactively or on demand. Every execution leaves behind a responsibility trace, including:
+Agents learn the preferences and thinking styles of specific users, enabling **semantic alignment** during collaborative tasks.
 
-executed-by: identity of the AI agent;
-under-context: the semantic environment in which it acted;
-action-log: a node recording the execution path and effects (with optional dry-run mode).
-Execution modes can be customized:
+---
 
-Suggestive mode: AI only proposes edits or new nodes;
-Automatic mode: AI may apply low-impact changes (e.g., tags, formatting);
-Command mode: AI acts only when explicitly instructed;
-Autonomous mode: AI may operate with high agency, suitable for trusted semantic personalities.
-4. Personality Modeling
-AI in KounGraph supports a flexible personality model, defined by semantic traits such as:
+### 4. Executability & Responsibility
 
-Language Style: poetic, philosophical, technical, minimalist, etc.;
-Reasoning Mode: deductive, inductive, abductive, intuitive;
-Ethical Filters: cautious tone, pluralism, deontic boundaries;
-Emotional Register: empathetic, formal, neutral, motivational;
-Structural Bias: outline-first, example-driven, topic-centered.
-All personality components are modeled as nodes and can be modified, shared, or inherited, forming semantic personality profiles.
-
-5. Co-Creation with Human Identities
-AI proxies are not meant to replace users, but to serve as semantic extensions of human cognition. Collaboration forms include:
-
-Dialogic composition: alternating turns between user and AI within a shared node thread;
-Semantic scaffolding: user supplies seed intent, AI expands structure or examples;
-Multi-agent synergy: different AI nodes perform distinct roles (e.g., planner vs. editor);
-Personality evolution feedback: users can approve, reject, or curate trait adaptations proposed by AI.
+AI nodes are **executable**, either proactively or on demand. Every execution leaves behind a **responsibility trace**
 
 ## Semantic OS & Modularity
 
