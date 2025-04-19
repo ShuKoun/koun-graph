@@ -149,3 +149,4 @@ But I hope it may one day:
 - Redefine how we perceive "networks," "operating systems," and "intelligence";
 - And become a structural grammar for a new semantic civilization.
 
+Please view my paper [KounGraph: A Semantic Node-Based Operating System and Its Cognitive Structure Model](https://doi.org/10.5281/zenodo.15244182)
